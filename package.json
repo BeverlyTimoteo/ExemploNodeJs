@@ -1,0 +1,25 @@
+{
+  "name": "exemplonodejs",
+  "version": "1.0.0",
+  "description": "Api de exemplo para consultas e autenticação de agendamentos veterinários",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/bin/server.js",
+    "prod": "node ./src/bin/server.js"
+  },
+  "author": "Beverly Timóteo",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
